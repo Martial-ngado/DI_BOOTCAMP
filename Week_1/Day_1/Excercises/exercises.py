@@ -1,85 +1,66 @@
 
-# EXERCISE 1 - Hello World
-# ============================================================
-print("Hello World!\n " * 4)
+#Exercice 1 "Hello World"
+print("Hello Word\n" *4)
 
 
-# ============================================================
-# EXERCISE 2 - Power calculation
-# ============================================================
+#Exercice 2 "Raise to Power"
 print(99**3*8)
 
-
-# ============================================================
-# EXERCISE 3 - Comparisons
-# ============================================================
-15 < 8          # False — 15 is greater than 8
-5 < 3           # False — 5 is greater than 3
-3 == 3          # True  — 3 is equal to 3
-3 == "3"        # False — 3 is an integer and "3" is a string
-"3" > 3         # False — "3" is a string and 3 is an integer
-"Hello" == "hello"  # False — case sensitive
+#Exercice 3 "Comparing"
+15 < 8 #False
+#this is false because 15 is greater than 
+5 < 3 #false because 5 is greater than 3
+3 == 3 #true because 3 is equal to 3
+3 == "3" #false because 3 is an integer and "3" is a string
+"3" > 3 #false because "3" is a string and 3 is an integer
+"Hello" == "hello" #false because of case sensitivity
 
 
-# ============================================================
-# EXERCISE 4 - String concatenation with a variable
-# ============================================================
+#Exercice 4 computer and brand
 computer_brand = "Dell"
 print("I have a " + computer_brand + " computer.")
 
 
-# ============================================================
-# EXERCISE 5 - Personal info string
-# ============================================================
+#Exercice 5 Infos about me 
 name = "Martial N'GADO"
 age = 26
 shoe_size = 44
-info = ("Call me the great " + name + ", I am " + str(age) +
-        " years old and my shoe size is " + str(shoe_size) + ".")
+info = "Call me the great " + name + ", I am " + str(age) + " years old and my shoe size is " + str(shoe_size) + "."
 print(info)
 
-
-# ============================================================
-# EXERCISE 6 - Simple if condition
-# ============================================================
+#Exercice 6 simple if condition
 a = 9
 b = 8
 if a > b:
     print("Hello World")
 
 
-# ============================================================
-# EXERCISE 7 - Even or Odd
-# ============================================================
-number = int(input("Enter a number: "))
-
-if number % 2 == 0:
-    print("Even")
-else:
-    print("Odd")
-
-# This program uses input() to get a number from the user,
-# checks if it is even or odd using the modulus operator,
-# then prints the result.
+#Exercice 7 Even or Odd
+number = int(input("Enter a number: ")) #function input : to allow user to type from the keyboard
+if number % 2 ==0: # % uses modulo if the reste of division of the number input by 2 is 0 then it is an even num
+     print("Even")
+else :
+     print("Odd")
 
 
-# ============================================================
-# EXERCISE 8 - Name comparison
-# ============================================================
+
+
+#Exercice 8 name comparison
 my_name = "Martial"
-user_name = input("What is your name? ")
+user_name = input("What is your name")
 if user_name == my_name:
-    print("hey buddy, we have the same name😂😂😂")
-else:
-    print("ah ah i thought we had the same name but it seems we don't😂😂😂")
+        print("Hey buddy, we have the same name😂😂")
+else :
+        print("oops, i thought we had the same name😂😂, sorry oo")
 
 
 
-# EXERCISE 9 - Height check
 
-height = int(input("Enter your height in cm: "))
+#Exercice 9 checking the height
 
+height = int(input("Enter your height in cm:  "))
 if height > 145:
-    print("You are tall enough to ride.")
-else:
-    print("You need to grow some more to ride.")
+        print("You are tall enough to ride")
+else :
+        print("You need to grow some more to ride")
+
